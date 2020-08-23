@@ -1,0 +1,7 @@
+LIBRARY TestPool
+EXPORTS
+    Initialize      @2
+    LeaseIPAddress  @3
+    RenewIPAddress  @5
+    ReleaseIPAddress @4
+    Destroy         @1
